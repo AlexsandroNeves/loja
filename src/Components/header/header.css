@@ -1,0 +1,30 @@
+.div--promocao{
+    width: 100%;
+    height: 24px;
+    max-width: 1920px;
+    background: #353535; 
+}
+
+.div--promocao p{
+    text-align: center;
+    color: #fff;
+}
+
+.container--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:24px;
+    margin-bottom: 24px;
+}
+
+.container--pesquisa input{
+    width: 682px;
+    max-width:100% ;
+    height: 40px;
+    border-radius: 10px;
+    background: #EFEFEF;
+    border: none;
+    outline: none;
+    padding-left: 24px;
+}
