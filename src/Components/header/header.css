@@ -5,9 +5,10 @@
     background: #353535; 
 }
 
-.div--promocao p{
+.paragrafo--promocao{
     text-align: center;
     color: #fff;
+    font-size: 12px;
 }
 
 .container--header{
