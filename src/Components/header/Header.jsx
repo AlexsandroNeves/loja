@@ -10,7 +10,7 @@ const Header = () => {
         <>
             <header>
                 <div className="div--promocao">
-                    <p>Acompanhe as melhores promoções disponiveis aqui na Maeztra.</p>
+                    <p className="paragrafo--promocao">Acompanhe as melhores promoções disponiveis aqui na Maeztra.</p>
                 </div>
 
                 <div className="container--header">

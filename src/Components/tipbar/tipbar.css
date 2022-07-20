@@ -1,0 +1,17 @@
+.title--tipbar{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;
+}
+
+.container--tipbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.description--tipbar{
+font-size: 12px;
+color: #000;
+}

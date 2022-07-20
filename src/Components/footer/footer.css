@@ -1,0 +1,15 @@
+.footer--description{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-copy{
+    display: flex;
+    background: #353535;
+    justify-content: space-evenly;
+}
+
+.footer--medias,.footer--payment,.footer--logo{
+display: flex;
+align-items: center;
+}
