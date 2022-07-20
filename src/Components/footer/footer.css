@@ -6,10 +6,13 @@
 .footer-copy{
     display: flex;
     background: #353535;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
 }
 
 .footer--medias,.footer--payment,.footer--logo{
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }

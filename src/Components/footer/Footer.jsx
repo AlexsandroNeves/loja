@@ -7,6 +7,7 @@ import youtube from './img/youtube.png'
 import visa from './img/visa.png'
 import mastercard from './img/mastercard.png'
 import powered from './img/powered.png'
+import { TitleFooter } from '../../ComponentsStyles/Components'
 const Footer = () => {
 
     return (
@@ -15,7 +16,7 @@ const Footer = () => {
             <div className='footer--description'>
 
                 <div>
-                    <h3>Informações</h3>
+                    <TitleFooter>Informações</TitleFooter>
                     <div>
                         <p>Quem Somos</p>
                         <p>Prazo de Envio</p>
@@ -25,7 +26,7 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <h3>Minha Conta</h3>
+                    <TitleFooter>Minha Conta</TitleFooter>
                     <div>
                         <p>Minha conta</p>
                         <p>Meus pedidos</p>
@@ -34,7 +35,7 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <h3>Onde nos Encontrar </h3>
+                    <TitleFooter>Onde nos Encontrar </TitleFooter>
                     <div>
                         <p>Lojas</p>
                         <p>Endereços</p>

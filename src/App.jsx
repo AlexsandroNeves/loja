@@ -4,6 +4,7 @@ import Tipbar from './Components/tipbar/Tipbar'
 import Marca from './Components/marcas/Marca'
 import Footer from './Components/footer/Footer'
 import { Newsletter } from './Components/newsletter/Newsletter'
+import { Banner02 } from './Components/banner02/banner'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Tipbar/>
       <Marca/>
+      <Banner02/>
       <Newsletter/>
       <Footer/>
 

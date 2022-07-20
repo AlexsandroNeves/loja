@@ -31,3 +31,11 @@ font-size: 32px;
 line-height: 49px;
 text-align: center;
 `;
+
+export const TitleFooter = styled.h3`
+color:#353535;
+font-size:
+font-family: 'Titillium Web';
+font-weight: 700;
+font-size: 16px;
+`;

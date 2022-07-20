@@ -9,6 +9,9 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 1598px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .description--tipbar{

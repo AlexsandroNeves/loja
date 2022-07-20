@@ -1,7 +1,7 @@
-.container--newsletter{
+.container--banner{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     width: 1598px;
     margin-right: auto;
     margin-left: auto;

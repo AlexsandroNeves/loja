@@ -7,4 +7,7 @@ width: 310px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 1598px;
+    margin-right: auto;
+    margin-left: auto;
 }

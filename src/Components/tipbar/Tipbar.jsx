@@ -46,6 +46,15 @@ const Tipbar = () => {
                         <p className="description--tipbar">Em compras acima de R$ 499,00</p>
                     </div>
                 </ContainerTipBar>
+                <ContainerTipBar>
+                    <img src={imgFrete} alt="" />
+                    <div>
+                        <h4>
+                            Frete Grátis
+                        </h4>
+                        <p className="description--tipbar">Em compras acima de R$ 499,00</p>
+                    </div>
+                </ContainerTipBar>
 
             </div>
         </>
