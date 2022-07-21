@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1598px;
+    max-width: 1598px;
     padding: 40px 0;
     border-bottom:  1px solid #efefef;
     border-top: 1px solid #efefef;
     gap: 50px;
     margin:80px auto 64px auto;
+    width: 90%;
 }
 
 .container--newsletter h3 {

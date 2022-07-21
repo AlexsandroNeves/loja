@@ -2,10 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1598px;
+    max-width: 1598px;
     margin-right: auto;
     margin-left: auto;
     gap: 64px;
+    width: 90%;
+}
+
+
+
+.img--banner-02 {
+    max-width: 1114px;
+    width: 100%;
+}
+
+.box--banner {
+    width: 420px;
 }
 
 
@@ -33,7 +45,7 @@
         margin-left: auto;
     }
 
-    p.description--banner{
+    p.description--banner {
         line-height: 28px;
     }
 

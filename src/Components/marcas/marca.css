@@ -1,7 +1,8 @@
 .marca--img {
 
-    width: 308px;
+    max-width: 308px;
     height: 64px;
+    width: 100%;
 }
 
 .container--marcas {

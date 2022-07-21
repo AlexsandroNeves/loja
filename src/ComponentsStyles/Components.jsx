@@ -30,7 +30,7 @@ export const ContainerTipBar = styled.div`
     align-items: center;
     gap: 10px;
     width:90%;
-
+    margin-left:15px;  
     @media(max-width: 800px) {
         margin-bottom:20px;
       }

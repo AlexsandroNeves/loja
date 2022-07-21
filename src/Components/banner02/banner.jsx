@@ -17,7 +17,7 @@ export const Banner02 = () => {
             </div>
 
             <figure>
-                <img src={banner} alt="Banner de uma mulher sentada com a vestido amarela" />
+                <img className='img--banner-02' src={banner} alt="Banner de uma mulher sentada com a vestido amarela" />
             </figure>
 
         </section>
