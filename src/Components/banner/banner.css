@@ -19,7 +19,7 @@ h3 {
 
 .banner--container p{
     font-family: 'Montserrat';
-margin-bottom: 24px 0;
+     margin-bottom: 24px;
     
 }
 p {
@@ -61,7 +61,7 @@ p {
 
 @media (max-width: 800px) {
     .banner--container {
-        padding-left: 20px;
+        padding-left: 30px;
         padding-top: 10px;
         background: url(../../assets/img/Banner-total.png) 100% ;
         background-repeat: no-repeat;
