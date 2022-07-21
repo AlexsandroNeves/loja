@@ -4,6 +4,8 @@ import user from '../../assets/img/user.png'
 import favoritos from '../../assets/img/favoritos.png'
 import carrinho from '../../assets/img/carrinho.png'
 import menuMobile from '../../assets/img/drawer.png'
+import lupa  from '../../assets/img/lupa.png'
+import shopping  from '../../assets/img/icon-shopping.png'
 import '../header/header.css'
 import { Button } from "../../ComponentsStyles/Components";
 const Header = () => {
@@ -21,6 +23,14 @@ const Header = () => {
 
                     <div>
                         <img src={logo} alt="Logo Maeztra" />
+                    </div>
+
+                    <div className="lupa--icon">
+                        <img src={lupa} alt="Lupa" />
+                    </div>
+
+                    <div className="icon--shopping">
+                        <img src={shopping} alt="Lupa" />
                     </div>
 
                     <div className="container--pesquisa">

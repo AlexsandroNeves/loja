@@ -61,13 +61,14 @@
     font-size: 14px;
 }
 
-.hamb--mobile{
+.hamb--mobile,.lupa--icon, .icon--shopping{
     display: none;
 }
 
+
 @media (max-width: 800px) {
 
-    .hamb--mobile{
+    .hamb--mobile,.lupa--icon,.icon--shopping{
         display: block;
     }
 
@@ -86,9 +87,7 @@
     }
 
     div.icon--carrinho{
-        border: unset;
+      display: none;
     }
-    div.icon--carrinho p {
-        display: none;
-    }
+    
 }
