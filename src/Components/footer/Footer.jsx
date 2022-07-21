@@ -18,27 +18,27 @@ const Footer = () => {
                 <div>
                     <TitleFooter>Informações</TitleFooter>
                     <div>
-                        <p>Quem Somos</p>
-                        <p>Prazo de Envio</p>
-                        <p>Troca e Devolução</p>
-                        <p>Promoções e Cupons</p>
+                        <p className='footer-link'>Quem Somos</p>
+                        <p className='footer-link'>Prazo de Envio</p>
+                        <p className='footer-link'>Troca e Devolução</p>
+                        <p className='footer-link'>Promoções e Cupons</p>
                     </div>
                 </div>
 
                 <div>
                     <TitleFooter>Minha Conta</TitleFooter>
                     <div>
-                        <p>Minha conta</p>
-                        <p>Meus pedidos</p>
-                        <p>Cadastra-se</p>
+                        <p className='footer-link'>Minha conta</p>
+                        <p className='footer-link'>Meus pedidos</p>
+                        <p className='footer-link'>Cadastra-se</p>
                     </div>
                 </div>
 
                 <div>
                     <TitleFooter>Onde nos Encontrar </TitleFooter>
                     <div>
-                        <p>Lojas</p>
-                        <p>Endereços</p>
+                        <p className='footer-link'>Lojas</p>
+                        <p className='footer-link'>Endereços</p>
                     </div>
                 </div>
 

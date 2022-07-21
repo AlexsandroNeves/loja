@@ -6,7 +6,7 @@ export const Newsletter = () => {
 
         <div className='container--newsletter'>
             <h3>Receba Nossa Newsletter</h3>
-            <div>
+            <div className='box--newsletter'>
                 <input type="text" placeholder='Digite seu  e-mail' />
                 <Button>Entrar</Button>
             </div>

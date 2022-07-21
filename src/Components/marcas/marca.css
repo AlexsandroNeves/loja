@@ -5,7 +5,7 @@ width: 310px;
 
 .container--marcas{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 1598px;
     margin-right: auto;

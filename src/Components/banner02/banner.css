@@ -1,8 +1,21 @@
-.container--banner{
+.container--banner {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1598px;
     margin-right: auto;
     margin-left: auto;
+    gap: 64px;
+}
+
+.title--banner {}
+
+.description--banner {
+    color: #000;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
 }

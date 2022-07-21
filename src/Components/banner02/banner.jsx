@@ -5,8 +5,8 @@ export const Banner02 = () => {
     return (
         <section className='container--banner'>
             <div>
-                <h2>Lorem ipsum </h2>
-                <p>
+                <h2 className='title--banner'>Lorem ipsum </h2>
+                <p className='description--banner'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum mauris posuere fusce proin mattis.
                     Hendrerit cras ut nunc enim dictum. Mattis proin ut quis donec sed eget nulla.
                     Vel mi ut mauris integer. Nibh sagittis in lobortis sed cursus condimentum velit pharetra.

@@ -1,8 +1,27 @@
-.container--newsletter{
+.container--newsletter {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 1598px;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 40px 0;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    gap: 50px;
+    margin: 64px auto;
+}
+
+.container--newsletter h3 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+.box--newsletter input {
+    padding-left: 24px;
+    width: 630px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
 }
