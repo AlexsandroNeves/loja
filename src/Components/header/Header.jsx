@@ -3,6 +3,7 @@ import logo from '../../assets/img/logo-maeztra-novo.png'
 import user from '../../assets/img/user.png'
 import favoritos from '../../assets/img/favoritos.png'
 import carrinho from '../../assets/img/carrinho.png'
+import menuMobile from '../../assets/img/drawer.png'
 import '../header/header.css'
 import { Button } from "../../ComponentsStyles/Components";
 const Header = () => {
@@ -14,6 +15,10 @@ const Header = () => {
                 </div>
 
                 <div className="container--header">
+                    <div className="hamb--mobile">
+                        <img src={menuMobile} alt="Menu mobile" />
+                    </div>
+
                     <div>
                         <img src={logo} alt="Logo Maeztra" />
                     </div>
@@ -37,9 +42,9 @@ const Header = () => {
 
                         <div className="icon--carrinho">
                             <img src={carrinho} alt="Meu carrinho" />
-                           <p>
-                            Meu carrinho
-                            </p> 
+                            <p>
+                                Meu carrinho
+                            </p>
                         </div>
 
                     </div>

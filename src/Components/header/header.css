@@ -61,9 +61,15 @@
     font-size: 14px;
 }
 
+.hamb--mobile{
+    display: none;
+}
 
 @media (max-width: 800px) {
 
+    .hamb--mobile{
+        display: block;
+    }
 
     .container--pesquisa {
         display: none;

@@ -8,10 +8,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1598px;
+    max-width: 1598px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 80px;
+    width: 90%;
 }
 
 @media (max-width: 800px) {

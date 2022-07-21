@@ -12,11 +12,16 @@ export const Button = styled.button`
     font-size: ${(props) => props.fontSize};
     line-height:24px;
     cursor:pointer;
+
+    @media(max-width: 800px) {
+        margin-left:15px;
+        width:79px;
+      }
+    
 `;
 
 export const ContainerTipBar = styled.div`
     padding: 20px;
-    width: 22%;
     max-width: 308px;
     height: 64px;
     background: #EFEFEF;
@@ -24,6 +29,12 @@ export const ContainerTipBar = styled.div`
     display: flex;
     align-items: center;
     gap: 10px;
+    width:90%;
+
+    @media(max-width: 800px) {
+        margin-bottom:20px;
+      }
+    
 `;
 
 export const TitleSection = styled.h2`

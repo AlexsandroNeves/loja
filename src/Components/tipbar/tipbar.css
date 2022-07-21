@@ -9,15 +9,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    width: 1598px;
+    max-width: 1598px;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 80px;
 }
 
+h4{
+    font-size: 0.8rem;
+}
 .description--tipbar {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #000;
     font-family: 'Titillium Web';
 }
