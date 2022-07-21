@@ -10,7 +10,7 @@ const Marca = () => {
 
     return (
         <>
-            <TitleSection>Marcas Parceiras</TitleSection>
+            <TitleSection marginBottom={'24px'}>Marcas Parceiras</TitleSection>
 
             <div className='container--marcas'>
               

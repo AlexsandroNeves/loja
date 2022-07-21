@@ -4,7 +4,7 @@ import './banner.css'
 export const Banner02 = () => {
     return (
         <section className='container--banner'>
-            <div>
+            <div className='box--banner'>
                 <h2 className='title--banner'>Lorem ipsum </h2>
                 <p className='description--banner'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum mauris posuere fusce proin mattis.

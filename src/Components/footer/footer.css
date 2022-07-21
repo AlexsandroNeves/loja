@@ -1,18 +1,23 @@
-.footer--description{
+.footer--description {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 64px;
 }
-.footer-link{
+
+.footer-link {
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 26px;
     color: #000;
-
+    
 }
-.footer-copy{
+.footer--box-icon img {
+    display: none;
+}
+
+.footer-copy {
     display: flex;
     background: #353535;
     justify-content: space-around;
@@ -20,8 +25,44 @@
     height: 85px;
 }
 
-.footer--medias,.footer--payment,.footer--logo{
+.footer--medias,
+.footer--payment,
+.footer--logo {
     display: flex;
     align-items: center;
     gap: 40px;
+}
+ 
+
+@media (max-width: 800px) {
+
+    div.footer--description {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    .footer-copy {
+        flex-direction: column;
+        height: auto;
+        padding-top: 24px;
+    }
+
+    .footer--medias,
+    .footer--payment,
+    .footer--logo {
+        padding-bottom: 32px;
+    }
+    .footer--box-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer--box-icon img {
+        width: 12px;
+        display: block;
+    }
 }

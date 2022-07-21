@@ -8,7 +8,6 @@
     gap: 64px;
 }
 
-.title--banner {}
 
 .description--banner {
     color: #000;
@@ -18,4 +17,33 @@
     font-size: 14px;
     line-height: 21px;
 
+}
+
+@media (max-width: 800px) {
+    section.container--banner {
+        width: 100% !important;
+        flex-direction: column;
+        align-items: unset;
+        gap: 24px;
+    }
+
+    .container--banner figure {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    p.description--banner{
+        line-height: 28px;
+    }
+
+    section.container--banner figure img {
+        width: 100%;
+    }
+
+    .box--banner {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }

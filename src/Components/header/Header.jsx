@@ -20,26 +20,31 @@ const Header = () => {
 
                     <div className="container--pesquisa">
                         <input type="text" placeholder="O que você busca ?" />
-                        <Button> Buscar </Button>
+                        <Button width={'119px'} borda={'8px'} tamanho={'-119px'} fontSize={'14px'}> Buscar </Button>
                     </div>
 
-                    <div>
-                        <img src={user} alt="Minha Conta" />
-                        Minha conta
+                    <div className="box--login">
+
+                        <div className="icon--minha-conta">
+                            <img src={user} alt="Minha Conta" />
+                            Minha conta
+                        </div>
+
+                        <div className="icon--favorito">
+                            <img src={favoritos} alt="Adicionar Favoritos" />
+                            Adicionar Favorito
+                        </div>
+
+                        <div className="icon--carrinho">
+                            <img src={carrinho} alt="Meu carrinho" />
+                           <p>
+                            Meu carrinho
+                            </p> 
+                        </div>
+
                     </div>
-
-                    <div>
-                        <img src={favoritos} alt="Adicionar Favoritos" />
-                         Adicionar Favorito 
-                    </div>
-
-                     <div>
-                        <img src={carrinho} alt="Meu carrinho" />
-                        Meu carrinho
-                     </div>   
-
                 </div>
-                    <Menu/>
+                <Menu />
             </header>
         </>
     );

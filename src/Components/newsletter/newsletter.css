@@ -4,10 +4,10 @@
     justify-content: center;
     width: 1598px;
     padding: 40px 0;
-    border-bottom: 1px solid;
-    border-top: 1px solid;
+    border-bottom:  1px solid #efefef;
+    border-top: 1px solid #efefef;
     gap: 50px;
-    margin: 64px auto;
+    margin:80px auto 64px auto;
 }
 
 .container--newsletter h3 {
@@ -24,4 +24,19 @@
     height: 40px;
     border-radius: 4px;
     outline: none;
+    border: 1px solid #353535;
+}
+
+@media (max-width: 800px) {
+
+    .container--newsletter {
+        width: 100% !important;
+        flex-direction: column;
+        margin: 40px auto 40px auto!important ;
+        gap: 15px !important;
+    }
+
+    .box--newsletter input {
+        width: 204px !important;
+    }
 }

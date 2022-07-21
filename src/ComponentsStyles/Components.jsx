@@ -1,14 +1,17 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-    width:119px;
+    width: ${(props) => props.width};
     height:40px;
     background: #FAA500;
-    border-radius: 8px;
+    border-radius: ${(props) => props.borda};
     color:#fff;
     outline:none;
     border:none;
-    margin-left:-10px;
+    margin-left: ${(props) => props.tamanho};
+    font-size: ${(props) => props.fontSize};
+    line-height:24px;
+    cursor:pointer;
 `;
 
 export const ContainerTipBar = styled.div`
@@ -28,8 +31,8 @@ font-family: 'Titillium Web';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
-line-height: 49px;
 text-align: center;
+margin-bottom: ${(props) => props.marginBottom};
 `;
 
 export const TitleFooter = styled.h3`

@@ -8,6 +8,7 @@ import visa from './img/visa.png'
 import mastercard from './img/mastercard.png'
 import powered from './img/powered.png'
 import { TitleFooter } from '../../ComponentsStyles/Components'
+import mais from './img/mais.png'
 const Footer = () => {
 
     return (
@@ -16,7 +17,11 @@ const Footer = () => {
             <div className='footer--description'>
 
                 <div>
+                    <div className='footer--box-icon'>
+
                     <TitleFooter>Informações</TitleFooter>
+                    <img src={mais} alt="mais" />
+                    </div>
                     <div>
                         <p className='footer-link'>Quem Somos</p>
                         <p className='footer-link'>Prazo de Envio</p>
@@ -26,7 +31,10 @@ const Footer = () => {
                 </div>
 
                 <div>
+                    <div className='footer--box-icon'>
                     <TitleFooter>Minha Conta</TitleFooter>
+                    <img src={mais} alt="mais" />
+                    </div>
                     <div>
                         <p className='footer-link'>Minha conta</p>
                         <p className='footer-link'>Meus pedidos</p>
@@ -35,7 +43,10 @@ const Footer = () => {
                 </div>
 
                 <div>
+                    <div className='footer--box-icon'>
                     <TitleFooter>Onde nos Encontrar </TitleFooter>
+                    <img src={mais} alt="mais" />
+                    </div>
                     <div>
                         <p className='footer-link'>Lojas</p>
                         <p className='footer-link'>Endereços</p>

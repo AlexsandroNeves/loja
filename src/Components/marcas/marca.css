@@ -1,13 +1,23 @@
-.marca--img{
+.marca--img {
 
-width: 310px;
+    width: 308px;
+    height: 64px;
 }
 
-.container--marcas{
+.container--marcas {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1598px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 800px) {
+
+    div.container--marcas {
+        flex-direction: column;
+        width: 100%;
+    }
 }

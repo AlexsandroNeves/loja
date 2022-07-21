@@ -9,7 +9,7 @@
     text-align: center;
     color: #fff;
     font-size: 12px;
-  
+
 }
 
 .container--header {
@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 24px
 }
 
 .container--pesquisa input {
@@ -29,4 +29,60 @@
     border: none;
     outline: none;
     padding-left: 24px;
+}
+
+.box--login {
+    display: flex;
+    gap: 39px;
+}
+
+.icon--minha-conta,
+.icon--favorito {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+
+.icon--carrinho {
+    border: 1px solid #FAA500;
+    border-radius: 8px;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.icon--carrinho p {
+    color: #000;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+@media (max-width: 800px) {
+
+
+    .container--pesquisa {
+        display: none;
+    }
+
+    ul.ul--menu {
+        flex-direction: column;
+        display: none;
+    }
+
+    div.icon--minha-conta,
+    div.icon--favorito {
+        display: none;
+    }
+
+    div.icon--carrinho{
+        border: unset;
+    }
+    div.icon--carrinho p {
+        display: none;
+    }
 }

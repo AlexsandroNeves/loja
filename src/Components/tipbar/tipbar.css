@@ -1,10 +1,11 @@
-.title--tipbar{
+.title--tipbar {
     font-size: 16px;
     text-align: center;
-    margin: 20px;
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
 
-.container--tipbar{
+.container--tipbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,9 +13,19 @@
     width: 1598px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 80px;
 }
 
-.description--tipbar{
-font-size: 12px;
-color: #000;
+.description--tipbar {
+    font-size: 12px;
+    color: #000;
+    font-family: 'Titillium Web';
+}
+@media (max-width: 800px) {
+
+div.container--tipbar {
+    flex-direction: column;
+    width: 100%;
+}
+
 }
