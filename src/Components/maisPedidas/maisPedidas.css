@@ -1,0 +1,47 @@
+.container--mais-pedidas {
+    max-width: 1598px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+
+}
+
+.box--product {
+    max-width: 308px;
+    width: 100%;
+}
+
+.container-description{
+    margin-left: 0 27px;
+}
+.product--value {
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    color: #353535;
+    font-size: 20px;
+}
+
+.product-title {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.product-description {
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 8px 0;
+    color: #000000;
+    letter-spacing: 1px;
+    opacity: 0.5;
+}
