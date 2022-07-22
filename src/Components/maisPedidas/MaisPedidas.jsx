@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button, TitleSection } from '../../ComponentsStyles/Components'
-import produto01 from './img/produto0.png'
-import produto02 from './img/produto1.png'
+import produto01 from './img/Produto0.png'
+import produto02 from './img/Produto1.png'
 import paleta1 from './img/paleta0.png'
 import paleta2 from './img/paleta1.png'
 import './maisPedidas.css'
