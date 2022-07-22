@@ -14,41 +14,42 @@
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 80px;
-    gap:10px;
+    gap: 10px;
 }
 
-h4{
+h4 {
     font-size: 0.8rem;
 }
+
 .description--tipbar {
     font-size: 0.75rem;
     color: #000;
     font-family: 'Titillium Web';
 }
-.container--tipbar.mobile-tipbar{
+
+.container--tipbar.mobile-tipbar {
     display: none;
 }
+
 @media (max-width: 800px) {
 
-    
+    div.container--tipbar {
+        flex-direction: column;
+        width: 100%;
+        display: block;
+        margin-bottom: 0px;
+    }
 
-div.container--tipbar {
-    flex-direction: column;
-    width: 100%;
-    display: block;
-    margin-bottom: 0px;
-}
+    .container--tipbar.desktop-tipbar {
+        display: none;
+    }
 
-.container--tipbar.desktop-tipbar {
-    display: none;
-}
+    .container--tipbar.mobile-tipbar {
+        display: block;
+    }
 
-.container--tipbar.mobile-tipbar{
-    display: block;
-}
-
-div.container--tipbar.mobile-tipbar div button.slick-arrow.slick-next,
- div.container--tipbar.mobile-tipbar > div > button.slick-arrow.slick-prev{
-    display: none !important;
-}
+    div.container--tipbar.mobile-tipbar div button.slick-arrow.slick-next,
+    div.container--tipbar.mobile-tipbar>div>button.slick-arrow.slick-prev {
+        display: none !important;
+    }
 }

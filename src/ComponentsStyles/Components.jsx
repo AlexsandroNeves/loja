@@ -44,6 +44,10 @@ font-weight: 700;
 font-size: 32px;
 text-align: center;
 margin-bottom: ${(props) => props.marginBottom};
+
+@media(max-width: 800px) {
+  font-size: 24px;
+}
 `;
 
 export const TitleFooter = styled.h3`

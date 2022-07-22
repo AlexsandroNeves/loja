@@ -15,11 +15,33 @@
     margin-bottom: 80px;
     width: 90%;
 }
+.container--marcas .marcas-desktop{
+    display: block;
+}
+.marcas-mobile{
+    display: none;
+}
 
 @media (max-width: 800px) {
+    div.container--marcas.marcas-desktop{
+        display: none;
+    }
 
+    div.container--marcas.marcas-mobile{
+        display: block;
+    }
+    
     div.container--marcas {
         flex-direction: column;
         width: 100%;
+        display: block;
+        margin-left:5%;
+        margin-bottom: 32px;
     }
+
+    div.container--marcas > div > button.slick-arrow.slick-next,
+    div.container--marcas > div > button.slick-arrow.slick-prev{
+    display: none !important;
+   }
+   
 }

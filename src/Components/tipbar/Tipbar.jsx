@@ -47,7 +47,7 @@ const Tipbar = () => {
         <>
             <h5 className="title--tipbar">Por que comprar na Maeztra?</h5>
             <div className="container--tipbar desktop-tipbar">
-                <ContainerTipBar>
+                <ContainerTipBar marginLeft={'15px'}>
                     <img src={imgMundo} alt="" />
                     <div>
                         <h4>
@@ -56,7 +56,7 @@ const Tipbar = () => {
                         <p className="description--tipbar">Produtos de alta qualidade</p>
                     </div>
                 </ContainerTipBar>
-                <ContainerTipBar>
+                <ContainerTipBar marginLeft={'15px'}>
                     <img src={imgEstoque} alt="" />
                     <div>
                         <h4>
@@ -66,7 +66,7 @@ const Tipbar = () => {
                     </div>
                 </ContainerTipBar>
 
-                <ContainerTipBar>
+                <ContainerTipBar marginLeft={'15px'}>
                     <img src={imgTroca} alt="" />
                     <div>
                         <h4>
@@ -74,8 +74,8 @@ const Tipbar = () => {
                         </h4>
                         <p className="description--tipbar">Trocas em até 48 horas, vejas as regras</p>
                     </div>
-                </ContainerTipBar>
-                <ContainerTipBar>
+                </ContainerTipBar >
+                <ContainerTipBar marginLeft={'15px'}>
                     <img src={imgGanhe} alt="" />
                     <div>
                         <h4>
@@ -84,7 +84,7 @@ const Tipbar = () => {
                         <p className="description--tipbar">Pagando à vista no Cartão</p>
                     </div>
                 </ContainerTipBar>
-                <ContainerTipBar>
+                <ContainerTipBar marginLeft={'15px'}>
                     <img src={imgFrete} alt="" />
                     <div>
                         <h4>
@@ -98,7 +98,7 @@ const Tipbar = () => {
 
             <div className="container--tipbar mobile-tipbar">
                 <Slider {...settings}>
-                    <ContainerTipBar marginLeft={'0px'}>
+                    <ContainerTipBar marginLeft={'5%'}>
                         <img src={imgMundo} alt="" />
                         <div>
                             <h4>
@@ -107,7 +107,7 @@ const Tipbar = () => {
                             <p className="description--tipbar">Produtos de alta qualidade</p>
                         </div>
                     </ContainerTipBar >
-                    <ContainerTipBar  marginLeft={'10%'}>
+                    <ContainerTipBar  marginLeft={'5%'}>
                         <img src={imgEstoque} alt="" />
                         <div>
                             <h4>
@@ -116,7 +116,7 @@ const Tipbar = () => {
                             <p className="description--tipbar">Produtos mais perto de você!</p>
                         </div>
                     </ContainerTipBar>
-                    <ContainerTipBar  marginLeft={'10%'}>
+                    <ContainerTipBar  marginLeft={'5%'}>
                         <img src={imgTroca} alt="" />
                         <div>
                             <h4>
@@ -125,7 +125,7 @@ const Tipbar = () => {
                             <p className="description--tipbar">Trocas em até 48 horas, vejas as regras</p>
                         </div>
                     </ContainerTipBar>
-                    <ContainerTipBar  marginLeft={'10%'}>
+                    <ContainerTipBar  marginLeft={'5%'}>
                         <img src={imgGanhe} alt="" />
                         <div>
                             <h4>
@@ -134,7 +134,7 @@ const Tipbar = () => {
                             <p className="description--tipbar">Pagando à vista no Cartão</p>
                         </div>
                     </ContainerTipBar>
-                    <ContainerTipBar  marginLeft={'10%'}>
+                    <ContainerTipBar  marginLeft={'5%'}>
                         <img src={imgFrete} alt="" />
                         <div>
                             <h4>

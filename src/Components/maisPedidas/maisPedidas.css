@@ -12,9 +12,10 @@
     width: 100%;
 }
 
-.container-description{
+.container-description {
     margin: 8px 27px 0;
 }
+
 .product--value {
 
     font-family: 'Titillium Web';
@@ -43,4 +44,16 @@
     margin: 8px 0;
     color: #000000;
     opacity: 0.5;
+}
+
+@media (max-width: 800px) {
+    .container--mais-pedidas {
+        margin-left: 5%;
+        margin-bottom:40px;
+        
+    } 
+    section.container--mais-pedidas > div.slick-slider.slick-initialized > button.slick-arrow.slick-prev,
+    section.container--mais-pedidas > div.slick-slider.slick-initialized > button.slick-arrow.slick-next{
+        display: none !important;
+    }
 }
