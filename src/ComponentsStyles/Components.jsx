@@ -26,11 +26,11 @@ export const ContainerTipBar = styled.div`
     height: 64px;
     background: #EFEFEF;
     border-radius: 4px;
-    display: flex;
+    display: flex !important;
     align-items: center;
     gap: 10px;
-    width:90%;
-    margin-left:15px;  
+    width:90% !important;
+    margin-left:${(props) => props.marginLeft};  
     @media(max-width: 800px) {
         margin-bottom:20px;
       }

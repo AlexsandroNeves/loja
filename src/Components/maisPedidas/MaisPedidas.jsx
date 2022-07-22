@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { Button, TitleSection } from '../../ComponentsStyles/Components'
 import produto01 from './img/produto0.png'
 import produto02 from './img/produto1.png'
+import paleta1 from './img/paleta0.png'
+import paleta2 from './img/paleta1.png'
 import './maisPedidas.css'
 export const MaisPedidas = () => {
 
@@ -28,24 +30,28 @@ export const MaisPedidas = () => {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 800,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
                 }
             }
         ]
     };
     return (
         <>
-                    <TitleSection>As mais pedidas</TitleSection>
+                    <TitleSection marginBottom={'24px'}>As mais pedidas</TitleSection>
             <section className='container--mais-pedidas'>
 
                 <div>
@@ -59,7 +65,7 @@ export const MaisPedidas = () => {
                         </div>
                         <div className='container-description'>
                             <div>
-                                cores
+                            <img src={paleta1} alt="" />
                             </div>
                             <div className='product--value'>
                                 R$ 500,00
@@ -78,11 +84,11 @@ export const MaisPedidas = () => {
                     </div>
                     <div className='box--product'>
                         <div>
-                            <img src={produto02} alt="" />
+                        <img src={produto02} alt="" />
                         </div>
                         <div className='container-description'>
                             <div>
-                                cores
+                            <img src={paleta2} alt="" />
                             </div>
                             <div className='product--value'>
                                 R$ 320,00
@@ -104,7 +110,7 @@ export const MaisPedidas = () => {
                     </div>
                         <div className='container-description'>
                             <div>
-                                cores
+                            <img src={paleta1} alt="" />
                             </div>
                             <div className='product--value'>
                                 R$ 500,00
@@ -125,7 +131,7 @@ export const MaisPedidas = () => {
                         </div>
                         <div className='container-description'>
                             <div>
-                                cores
+                            <img src={paleta2} alt="" />
                             </div>
                             <div className='product--value'>
                                 R$ 320,00
@@ -142,11 +148,11 @@ export const MaisPedidas = () => {
                     </div>
                     <div className='box--product'>
                         <div>
-                            <img src={produto02} alt="" />
+                            <img src={produto01} alt="" />
                         </div>
                         <div className='container-description'>
                             <div>
-                                cores
+                            <img src={paleta1} alt="" />
                             </div>
                             <div className='product--value'>
                                 R$ 480,00
@@ -167,7 +173,7 @@ export const MaisPedidas = () => {
                         </div>
                         <div className='container-description'>
                             <div>
-                                cores
+                            <img src={paleta2} alt="" />
                             </div>
                             <div className='product--value'>
                                 R$ 350,00

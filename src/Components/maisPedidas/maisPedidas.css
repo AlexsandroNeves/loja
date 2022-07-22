@@ -13,7 +13,7 @@
 }
 
 .container-description{
-    margin-left: 0 27px;
+    margin: 8px 27px 0;
 }
 .product--value {
 
@@ -42,6 +42,5 @@
     line-height: 18px;
     margin: 8px 0;
     color: #000000;
-    letter-spacing: 1px;
     opacity: 0.5;
 }
